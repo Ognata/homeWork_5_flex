@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, serif;
+    font-weight: bold;
+    font-size: 24px;    
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh
+}
+.header {   
+    flex-basis: 10% ;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 200, 200);
+}
+.main {
+    flex-grow: 1;
+    display: flex;
+    background-color: antiquewhite;
+}
+.cont-gl {
+    display: flex;    
+    flex-basis: 70%;
+    flex-direction: column;    
+    padding: 20px;  
+}
+.cont1 {    
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+.cont2 {
+    flex-basis: 20%;
+    display: flex;    
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+.box-cont2 {
+    flex-basis: 50%;
+    background-color: rgb(253, 223, 178);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont3 {
+    flex-basis: 20%;
+    background-color: rgb(253, 223, 178);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside {    
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(142, 214, 190);
+}
+.footer {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: rgb(204, 200, 200);
+}
+.sfooter {
+    padding: 10px 30px ;
+    margin: 30px 10px;
+    display: flex;
+    background-color:rgb(138, 199, 208);
+    align-items: center;
+}
